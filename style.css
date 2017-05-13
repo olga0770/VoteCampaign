@@ -305,21 +305,21 @@ height: 100%!important;
 
 .background {
 background-color: #cccccc;
-height: 450px;
+height: 350px;
 }
 
 .hamlet {
 background-image: url(picture/hamlet.gif);
 background-repeat: no-repeat center center;
 background-repeat: repeat-y;
-height: 450px;
+height: 350px;
 margin-top: 0px;
 }
 
 
 .fon {
 background-image: url(picture/fon.png);
-height: 450px;
+height: 350px;
 background-repeat: repeat-y;
 }
 
