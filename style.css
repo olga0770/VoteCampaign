@@ -1,0 +1,361 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+
+
+body {
+background-color: #ffffff;
+}
+
+
+img{
+width:100%;
+}
+
+
+
+
+
+
+
+
+
+.applestore {
+    width: 150px;
+    height: 50px;
+    background-image: url(picture/appleSrore-01.svg);
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: 0px;
+    left: 50%;
+    margin-left: -150px;
+    }
+
+.googleplay {
+    width: 150px;
+    height: 50px;
+    background-image: url(picture/googlePlay-01.svg);
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -50px;
+    left: 50%;
+    margin-left: 0px;
+    margin-bottom: -25px;
+    }
+
+
+
+
+
+
+
+
+
+
+.videocontainer{
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;}
+
+
+#endcredits{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+#endcreditsbutton{
+/*
+    position: absolute;
+    top: 40%;
+*/
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#annotation{
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    color: green;
+}
+
+
+
+.boks1 {
+    height: 2px;
+    background-color:#cccccc;
+z-index: 1;
+
+}
+
+
+.boks2 {
+    height: 1px;
+    margin-top: 120px;
+    margin-bottom: 15px;
+    }
+
+
+.boks3 {
+    border: 1px solid #ffffff;
+    }
+
+
+.boks4 {
+/*background-color: #cccccc;*/
+padding-top: 5px;
+}
+
+.boks5 {
+    height: 1px;
+    margin-bottom: 100px;
+    }
+
+
+
+
+.boks6 {
+    background-size: auto;
+    position: absolute;
+    top: 220px;
+    }
+
+
+.boks7 {
+    height: 1px;
+    background-color:#757575;
+}
+
+
+
+
+.buybottom {
+position: absolute;
+}
+
+
+h3{
+color: #ffffff;
+text-align: center;
+}
+
+h4{
+text-align: center;
+}
+
+
+
+h6{
+text-align: center;
+}
+
+h2{
+text-align: center;
+}
+
+h5{
+margin-left: 10px;
+}
+
+
+
+p{
+
+}
+
+
+
+
+
+
+
+.facebook{
+    background-image: url(picture/iconFacebook-inverse-01.svg);
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -10px;
+    left: 50%;
+    margin-left: -50px;
+}
+.instagram{
+    background-image: url(picture/iconInstagram-inverse-01.svg);
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -60px;
+    left: 50%;
+    margin-left: 0px;
+    margin-bottom: -50px;
+}
+
+.advantage1{
+width: 50px;
+height: 50px;
+background-image: url(picture/fordel1clock-01-01.svg);
+}
+
+.advantage2{
+width: 50px;
+height: 50px;
+background-image: url(picture/fordel2-01.svg);
+}
+
+.advantage3{
+width: 50px;
+height: 50px;
+background-image: url(picture/fordel3-01.svg);
+}
+
+.advantage4{
+width: 50px;
+height: 50px;
+background-image: url(picture/fordel3-01.svg);
+}
+
+.advantage5{
+width: 50px;
+height: 50px;
+background-image: url(picture/fordel5-01.svg);
+}
+
+.logop{
+width: 50px;
+height: 50px;
+background-image: url(picture/PolitikenLogoP-01.svg);
+}
+
+.profile{
+width: 50px;
+height: 50px;
+background-image: url(picture/profile1.png);
+
+}
+
+
+.profile2{
+width: 50px;
+height: 50px;
+background-image: url(picture/profile2.png);
+
+}
+
+.profile3{
+width: 50px;
+height: 50px;
+background-image: url(picture/profile3.png);
+
+}
+
+.star{
+width: 115px;
+height: 20px;
+background-image: url(picture/star-01.svg);
+}
+
+.star2{
+width: 115px;
+height: 20px;
+background-image: url(picture/star3-01.svg);
+}
+
+
+.list{
+width: 115px;
+height: 20px;
+background-image: url(picture/list-01.svg);
+}
+
+.tablet{
+width: 300px;
+height: 200px;
+background-image: url(picture/iPad.jpg);
+}
+
+
+
+.hs-responsive-embed-youtube {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+padding-top: 25px;
+}
+
+
+.hs-responsive-embed-youtube iframe {
+position: absolute;
+width: 100%!important;
+height: 100%!important;
+}
+
+
+.background {
+background-color: #cccccc;
+height: 450px;
+}
+
+.hamlet {
+background-image: url(picture/hamlet.gif);
+background-repeat: no-repeat center center;
+background-repeat: repeat-y;
+height: 450px;
+margin-top: 0px;
+}
+
+
+.fon {
+background-image: url(picture/fon.png);
+height: 450px;
+background-repeat: repeat-y;
+}
+
+
+.advantagebox {
+text-align: center;
+background-color: #cccccc;
+padding-bottom: 15px;
+}
+
+.reader {
+background-color: #cccccc;
+padding: 15px;
+}
+
+
+
+.farve6{
+text-align: center;
+margin-bottom: 15px;
+}
+
+.farveind{
+/*    background-color: #cccccc;*/
+    border: 1px solid #757575;
+    padding: 15px;
+
+}
+
+.farvekasse{
+    height: 180px;
+}
+
+
+
+
+
+
+
