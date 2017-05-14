@@ -375,6 +375,35 @@ margin-bottom: 15px;
 
 
 
+.boy {
+    background-image: url("picture/boy-01.svg");
+    background-size: auto;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    bottom: 40px;
+    left: 100%;
+    margin-left: -220px;
+    z-index: 1;
+    }
+
+
+
+.boy2 {
+    background-image: url("picture/boy2-01.svg");
+    background-size: auto;
+    position: fixed;
+    width: 100px;
+    height: 150px;
+    bottom: 40px;
+    left: 100%;
+    margin-left: -110px;
+    z-index: 1;
+    }
+
+
+
+
 
 
 
