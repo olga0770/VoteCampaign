@@ -67,7 +67,7 @@ width:100%;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
 
 
 }
@@ -107,9 +107,7 @@ z-index: 1;
     }
 
 
-.boks3 {
-    border: 1px solid #ffffff;
-    }
+
 
 
 .boks4 {
@@ -123,19 +121,17 @@ padding-top: 5px;
     }
 
 
+.boks7 {
+    height: 1px;
+    background-color:#757575;
+}
 
 
-/*
-.boks6 {
-    background-size: auto;
-    position: absolute;
-    top: 220px;
-    }
-*/
 
 
-.atstemme {
-background-image: url(picture/atStemme2-01.svg);
+
+.selfie {
+background-image: url(picture/TagSelfie2-01.svg);
 background-repeat: no-repeat center center;
 background-repeat: repeat-y;
 height: 280px;
@@ -145,17 +141,12 @@ margin-top: 0px;
 
 
 
-.boks7 {
-    height: 1px;
-    background-color:#757575;
-}
 
 
 
 
-.buybottom {
-position: absolute;
-}
+
+
 
 
 h3{
@@ -167,8 +158,8 @@ h4{
 text-align: center;
 }
 
-.orange {
-background-color: #d22020;
+.blue {
+background-color: #1d2952;
 padding: 5px;
 color: #ffffff;
 }
@@ -208,7 +199,7 @@ p{
     background-repeat: no-repeat center center;
     top: -10px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -100px;
 }
 .instagram{
     background-image: url(picture/iconInstagram-inverse-01.svg);
@@ -219,9 +210,41 @@ p{
     background-repeat: no-repeat center center;
     top: -60px;
     left: 50%;
+    margin-left: -50px;
+    margin-bottom: -50px;
+}
+
+
+.youtube{
+    background-image: url(picture/iconYouTube-01.svg);
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -60px;
+    left: 50%;
     margin-left: 0px;
     margin-bottom: -50px;
 }
+
+
+
+.snapchat{
+    background-image: url(picture/iconSnapChat-01.svg);
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: -60px;
+    left: 50%;
+    margin-left: 50px;
+    margin-bottom: -50px;
+}
+
+
+
 
 .advantage1{
 width: 50px;
@@ -323,12 +346,19 @@ height: 100%!important;
 
 
 .background {
-background-color: #cccccc;
+/*
+background: white;
+background: -webkit-linear-gradient(#ffffff, #ffffff, #cccccc);
+background: -o-linear-gradient(#ffffff, #ffffff, #cccccc);
+background: -moz-linear-gradient(#ffffff, #ffffff, #cccccc);
+background: linear-gradient(#ffffff, #ffffff, #cccccc);
+*/
 height: 350px;
+background-color: #cedc28;
 }
 
-.hamlet {
-background-image: url(picture/hamlet.gif);
+.girlboy {
+background-image: url(picture/GirlBoy.gif);
 background-repeat: no-repeat center center;
 background-repeat: repeat-y;
 height: 350px;
@@ -336,11 +366,13 @@ margin-top: 0px;
 }
 
 
+/*
 .fon {
 background-image: url(picture/fon.png);
 height: 350px;
 background-repeat: repeat-y;
 }
+*/
 
 
 .advantagebox {
@@ -365,11 +397,11 @@ margin-bottom: 15px;
 /*    background-color: #cccccc;*/
     border: 1px solid #757575;
     padding: 15px;
-
+    background-color: #cedc28;
 }
 
 .farvekasse{
-    height: 180px;
+    height: 250px;
 }
 
 
@@ -400,6 +432,10 @@ margin-bottom: 15px;
     margin-left: -110px;
     z-index: 1;
     }
+
+.kommuner {
+text-align: center;
+}
 
 
 
