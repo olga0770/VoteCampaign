@@ -149,19 +149,21 @@ margin-top: 0px;
 
 
 
+
+
+
 h3{
 color: #ffffff;
 text-align: center;
 }
 
-h4{
-text-align: center;
-}
+
 
 .blue {
 background-color: #1d2952;
 padding: 5px;
 color: #ffffff;
+text-align: center;
 }
 
 
@@ -170,9 +172,7 @@ h6{
 text-align: center;
 }
 
-h2{
-text-align: center;
-}
+
 
 h5{
 margin-left: 10px;
@@ -190,31 +190,6 @@ p{
 
 
 
-.facebook{
-    background-image: url(picture/iconFacebook-inverse-01.svg);
-    width: 50px;
-    height: 50px;
-    background-size: auto;
-    position: relative;
-    background-repeat: no-repeat center center;
-    top: -10px;
-    left: 50%;
-    margin-left: -100px;
-}
-.instagram{
-    background-image: url(picture/iconInstagram-inverse-01.svg);
-    width: 50px;
-    height: 50px;
-    background-size: auto;
-    position: relative;
-    background-repeat: no-repeat center center;
-    top: -60px;
-    left: 50%;
-    margin-left: -50px;
-    margin-bottom: -50px;
-}
-
-
 .youtube{
     background-image: url(picture/iconYouTube-01.svg);
     width: 50px;
@@ -222,7 +197,33 @@ p{
     background-size: auto;
     position: relative;
     background-repeat: no-repeat center center;
-    top: -60px;
+    top: 0px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.facebook{
+    background-image: url(picture/iconFacebook-inverse-01.svg);
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: px;
+    left: 50%;
+    margin-left: -50px;
+    margin-bottom: -50px;
+}
+
+
+.instagram{
+    background-image: url(picture/iconInstagram-inverse-01.svg);
+    width: 50px;
+    height: 50px;
+    background-size: auto;
+    position: relative;
+    background-repeat: no-repeat center center;
+    top: 0px;
     left: 50%;
     margin-left: 0px;
     margin-bottom: -50px;
@@ -237,7 +238,7 @@ p{
     background-size: auto;
     position: relative;
     background-repeat: no-repeat center center;
-    top: -60px;
+    top: -50px;
     left: 50%;
     margin-left: 50px;
     margin-bottom: -50px;
@@ -366,6 +367,32 @@ margin-top: 0px;
 }
 
 
+
+.iphone {
+background-image: url(picture/iPhone.gif);
+background-repeat: no-repeat center center;
+background-repeat: repeat-y;
+height: 350px;
+margin-top: 0px;
+}
+
+
+
+
+.iphonegirl{
+background-image: url(picture/iPhoneGirl.gif);
+background-repeat: no-repeat center center;
+background-repeat: repeat-y;
+height: 350px;
+margin-top: 0px;
+left: 50%;
+margin-left: -354px;
+}
+
+
+
+
+
 /*
 .fon {
 background-image: url(picture/fon.png);
@@ -382,7 +409,7 @@ padding-bottom: 15px;
 }
 
 .reader {
-background-color: #cccccc;
+background-color: #f2f2f2;
 padding: 15px;
 }
 
@@ -397,7 +424,7 @@ margin-bottom: 15px;
 /*    background-color: #cccccc;*/
     border: 1px solid #757575;
     padding: 15px;
-    background-color: #cedc28;
+    background-color: #f2f2f2;
 }
 
 .farvekasse{
@@ -434,6 +461,11 @@ margin-bottom: 15px;
     }
 
 .kommuner {
+text-align: center;
+}
+
+
+.bottommobil{
 text-align: center;
 }
 
