@@ -1,0 +1,166 @@
+{
+	"questions": [
+		{
+			"id": "1",
+			"question": "Afgiften på cigaretter skal sættes op",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "2",
+			"question": "Et besøg hos den praktiserende læge skal koste eksempelvis 100 kr",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "3",
+			"question": "Mere af ældreplejen skal udliciteres til private virksomheder",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken / eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "4",
+			"question": "Afgifterne for privatbilisme skal sænkes, så det bliver billigere at køre i bil",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "5",
+			"question": "Man skal hurtigere kunne genoptjene retten til dagpenge op",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "6",
+			"question": "Virksomheder skal kunne drages til ansvar for, om deres udenlandske underleverandører i Danmark overholder danske regler om løn, moms og skat",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "7",
+			"question": "Vækst i den offentlige sektor er vigtigere end skattelettelser",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "8",
+			"question": "Investeringer i kollektiv trafik skal prioriteres højere end investeringer til fordel for privatbilisme",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "9",
+			"question": "Straffen for grov vold og voldtægt skal skærpes",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "10",
+			"question": "Kontanthjælpen skal sænkes, så den økonomiske gevinst ved at arbejde bliver større",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "11",
+			"question": "Offentlige institutioner i Danmark tager for mange hensyn til religiøse minoriteter",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "12",
+			"question": "Reglerne skal strammes, så det bliver sværere at få asyl i Danmark",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+		},
+		{
+			"id": "13",
+			"question": "EU bestemmer for meget i forhold til dansk lov",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "14",
+			"question": "Huslejereguleringen skal ophæves",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "15",
+			"question": "Ulandsbistanden skal sænkes",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "16",
+			"question": "Indsatsen for at forbedre miljøet skal gå forud for økonomisk vækst",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "17",
+			"question": "Den offentlige kulturstøtte skal sænkes",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    	},
+		{
+			"id": "18",
+			"question": "Kirke og stat skal adskilles ",
+			"option1": "Helt enig",
+			"option2": "Delvist enig",
+			"option3": "Hverken/eller",
+			"option4": "Delvist uenig",
+			"option5": "Helt uenig"
+    }
+  ]
+}
