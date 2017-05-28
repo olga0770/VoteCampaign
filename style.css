@@ -493,6 +493,32 @@ text-align: center;
 
 
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+
+
+
+.sticker {
+    width: 158px;
+    height: 116px;
+    background-image: url(picture/Sticker-01.svg);
+    position: fixed;
+    top: 20px;
+    left: 100%;
+    margin-left: -250px;
+    z-index: 1;
+}
+
+
+
 
 
 
