@@ -35,9 +35,10 @@
 <div id="navbar" class="collapse navbar-collapse">
 <ul class="nav navbar-nav">
 <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-<li><a href="candidates.html">FIND DIN KANDIDAT HER</a></li>
+<li><a href="candidates.html">FIND DIN KANDIDAT</a></li>
 <li><a href="kommuna.html">OFFENTLIGE OPGAVER</a></li>
-<li><a href="iphone.html">SÅDAN VINDER DU iPHONE 8</a></li>
+<li><a href="iphone.html">VIND iPHONE 8</a></li>
+<li><a href="event.html">ARRENGEMENTER</a></li>
 </ul>
 </div>
 <!--/.nav-collapse -->
@@ -71,8 +72,8 @@
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3">
-<div class="yellowlead"><h3>SOM DU ER MEST ENIG MED:</h3></div>
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="yellowlead"><h3>SOM DU ER MEST ENIG MED</h3></div>
 </div>
 </div>
 </div>
@@ -82,7 +83,7 @@
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
 
 <div class="reader">
 
@@ -90,17 +91,22 @@
 
 
 <div class="allQuestions">
-<div class="overskrift"></div>
-</div>
-
-	<div class="resultBtn">
-		<button onclick="calculateResult()" type="button" class="btn btn-primary btn-success btn-lg">Resultat</button>
+		<div class="overskrift">
+			<h1></h1>
+            <h3>Svar på 18 sp&#248;rgsm&#229;l og find ud af hvilken kandidat der deler dine holdninger</h3>
+		</div>
 	</div>
 
+	<div class="resultBtn">
+		<button onclick="calculateResult()" type="button" class="btn btn-success btn-lg">Resultat</button>
+	</div>
 
 	<div class="testResults">
 
 	</div>
+
+
+
 
 	<template id="question_template">
 		<div class="an">
@@ -108,16 +114,16 @@
 
 			</div>
 			<div class="btn-group" id="id" data-toggle="buttons">
-				<label class="btn btn-default option1">
-					<input type="radio" class="toggle" value="1">Helt enig</label>
-				<label class="btn btn-default option2">
-					<input type="radio" class="toggle" value="2">Delvist enig</label>
-				<label class="btn btn-default option3">
-					<input type="radio" class="toggle" value="3">Hverken/eller</label>
-				<label class="btn btn-default option4">
-					<input type="radio" class="toggle" value="4">Delvist uenig</label>
-				<label class="btn btn-default option5">
-					<input type="radio" class="toggle" value="5">Helt uenig</label>
+				<label class="btn btn-default" id="option1">
+					<input type="radio" class="toggle" value="1">Option1</label>
+				<label class="btn btn-default" id="option2">
+					<input type="radio" class="toggle" value="2">Option2</label>
+				<label class="btn btn-default" id="option3">
+					<input type="radio" class="toggle" value="3">Option3</label>
+				<label class="btn btn-default" id="option4">
+					<input type="radio" class="toggle" value="4">Option4</label>
+				<label class="btn btn-default" id="option5">
+					<input type="radio" class="toggle" value="5">Option5</label>
 			</div>
 		</div>
 	</template>
