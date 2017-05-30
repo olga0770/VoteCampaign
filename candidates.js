@@ -129,7 +129,7 @@ function displayResults(matchResults){
 		var percent = Math.round((matchResults[i][0]/18)*100);
 
 		$(".testResults").append('<div class="progress">'+
-		'<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="36" aria-valuemin="0" aria-valuemax="100" style="width:'+ percent +'%">'+
+		'<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="36" aria-valuemin="0" aria-valuemax="100" style="width:'+ percent +'%">'+
 			'Du er '+ percent +'&#37; enig med '+ matchResults[i][1] +'</div></div>');
 
 
