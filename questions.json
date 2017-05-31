@@ -2,7 +2,7 @@
 	"questions": [
 		{
 			"id": "1",
-			"question": "Hvis borgerne skal have bedre service i kommunerne, er det nødvendigt at hæve kommuneskatten",
+			"question": "KOMMUNAL SERVICE: Hvis borgerne skal have bedre service i kommunerne, er det nødvendigt at hæve kommuneskatten",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -11,7 +11,7 @@
     },
 		{
 			"id": "2",
-			"question": "Kommunen bør i udgangspunktet sænke kommuneskatten",
+			"question": "KOMMUNESKAT: Kommunen bør i udgangspunktet sænke kommuneskatten",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -20,7 +20,7 @@
     },
 		{
 			"id": "3",
-			"question": "Kommunen skal økonomisk prioritere at skabe arbejdspladser frem for at prioritere den lokale velfærd",
+			"question": "JOBSKABELSE: Kommunen skal økonomisk prioritere at skabe arbejdspladser frem for at prioritere den lokale velfærd",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -29,7 +29,7 @@
     },
 		{
 			"id": "4",
-			"question": "Der bør i højere grad indføres brugerbetaling på kultur - og fritidstilbud i kommunerne",
+			"question": "BRUGERBETALING: Der bør i højere grad indføres brugerbetaling på kultur - og fritidstilbud i kommunerne",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -38,7 +38,7 @@
     },
 		{
 			"id": "5",
-			"question": " Ældre, velhavende borgere bør i højere grad selv betale for rengøring og hjælp til indkøb",
+			"question": "HJEMMEPLEJE: Ældre, velhavende borgere bør i højere grad selv betale for rengøring og hjælp til indkøb",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -47,7 +47,7 @@
     },
 		{
 			"id": "6",
-			"question": "Det er vigtigt at undgå lukninger af små folkeskoler - også selv om de er dyrere per elev",
+			"question": "FOLKESKOLE: Det er vigtigt at undgå lukninger af små folkeskoler - også selv om de er dyrere per elev",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -56,7 +56,7 @@
     },
 		{
 			"id": "7",
-			"question": "Det er en god ide at sætte kontanthjælpsmodtagere til at udføre nyttejob som for eksempel at rydde sne og feje fortove for en løn, der svarer til kontanthjælp",
+			"question": "DAGTILBUD: Med øget forældrebetaling skal der indføres flere pædagoger pr barn i daginstitutionerne",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -65,7 +65,7 @@
     },
 		{
 			"id": "8",
-			"question": "Det er en god ide at sætte kontanthjælpsmodtagere til at udføre nyttejob som for eksempel at rydde sne og feje fortove for en løn, der svarer til kontanthjælp",
+			"question": "YDEROMRÅDER: Velfærdstilbud i yderområderne skal bevares i stedet for at centralisere tilbuddene i kommunens tætbefolkede områder - også selv om det er dyrere",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -74,7 +74,7 @@
     },
 		{
 			"id": "9",
-			"question": "Straffen for grov vold og voldtægt skal skærpes",
+			"question": "NYTTEJOB: Det er en god ide at sætte kontanthjælpsmodtagere til at udføre nyttejob som for eksempel at rydde sne og feje fortove for en løn, der svarer til kontanthjælp",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -83,7 +83,7 @@
     },
 		{
 			"id": "10",
-			"question": "Kontanthjælpen skal sænkes, så den økonomiske gevinst ved at arbejde bliver større",
+			"question": "SKOLEVALG: Kommunen skal sørge for, at der er en bred social og etnisk sammensætning af elever på folkeskolerne - også selv om forældre ikke længere frit kan vælge skole til deres børn",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -92,7 +92,7 @@
     },
 		{
 			"id": "11",
-			"question": "Offentlige institutioner i Danmark tager for mange hensyn til religiøse minoriteter",
+			"question": "SOCIALT BEDRAGERI: Kommunen skal lave mere opsøgende arbejde hjemme hos borgerne for at afsløre socialt bedrageri - også selvom folk kan blive spurgt ind til meget personlige forhold",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -101,7 +101,7 @@
     },
 		{
 			"id": "12",
-			"question": "Reglerne skal strammes, så det bliver sværere at få asyl i Danmark",
+			"question": "BRUGERBETALING: Mere brugerbetaling på sundhedsområdet er nødvendigt for at skaffe penge til flere og bedre behandlinger",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -110,7 +110,7 @@
     },
 		{
 			"id": "13",
-			"question": "Kommunen skal lave mere opsøgende arbejde hjemme hos borgerne for at afsløre socialt bedrageri - også selvom folk kan blive spurgt ind til meget personlige forhold",
+			"question": "SUNDHEDSFORSIKRING: Private sundhedsforsikringer er et godt alternativ til den offentlige sygesikring",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -119,7 +119,7 @@
     },
 		{
 			"id": "14",
-			"question": "Huslejereguleringen skal ophæves",
+			"question": "KOLLEKTIV TRAFIK: Der skal bruges flere penge på den kollektive trafik, også selv om det sker på bekostning af de øvrige opgaver i regionen",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -128,7 +128,7 @@
     },
 		{
 			"id": "15",
-			"question": "Ulandsbistanden skal sænkes",
+			"question": "CENTRALISERING: Regionerne skal fortsætte centraliseringen i sundhedssektoren, så der laves store superhospitaler, mens de mindre sygehuse skal nedlægges",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -137,7 +137,7 @@
     },
 		{
 			"id": "16",
-			"question": "Indsatsen for at forbedre miljøet skal gå forud for økonomisk vækst",
+			"question": "BONUSORDNING: Det er en god idé at belønne sygehusafdelinger, der opnår gode resultater, med en økonomisk bonus",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -146,7 +146,7 @@
     },
 		{
 			"id": "17",
-			"question": "Den offentlige kulturstøtte skal sænkes",
+			"question": "FLERE SENGEPLADSER: Der skal skabes flere sengepladser på hospitalerne, så patienter ikke skal ligge på gangene, også selv om det betyder øgede udgifter til sygehusene",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
@@ -155,7 +155,7 @@
     },
 		{
 			"id": "18",
-			"question": "Kommunen skal sørge for, at der er en bred social og etnisk sammensætning af elever på folkeskolerne - også selv om forældre ikke længere frit kan vælge skole til deres børn ",
+			"question": "SYGEHUSSERVICE: Det skal være muligt at købe ekstra service som enestue og ekstra god mad på de offentlige sygehuse",
 			"option1": "Helt enig",
 			"option2": "Delvist enig",
 			"option3": "Hverlen/eller",
