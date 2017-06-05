@@ -10,18 +10,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Find din kandidat</title>
+    <title>Kandidatliste</title>
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <link href="style.css" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+   <nav class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -45,10 +51,8 @@
 </div>
 </nav>
 
-
+<a href="candidates.html"><div class="col-xs-12 hidden-xs sticker"></div></a>
 <br><br>
-
-
 
 
 <!--
@@ -60,6 +64,8 @@
 </div>
 </div>
 -->
+
+
 
 
 
@@ -228,17 +234,19 @@
 
 
 
-
-
-
 <div class="blue"><h4>HUSK AT DEN 21. NOVEMBER 2017 ER DER KOMMUNAL- OG REGIONSRÅDSVALG I DANMARK!</h4></div>
+
+
+
+
+
 <br><br>
 
 
 <div class="container-fluid">
 <div class="row">
 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
-<img src="picture/FindDinKandidat-01.svg" alt="logo">
+<img src="picture/FindDinKandidat2-01.svg" alt="logo">
 </div>
 </div>
 </div>
@@ -246,63 +254,93 @@
 <br>
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-xs-12 col-lg-8 col-lg-offset-2">
-<div class="yellowlead"><h3>SOM DU ER MEST ENIG MED</h3></div>
-</div>
-</div>
-</div>
-
-<br><br>
 
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="col-sm-10 col-sm-offset-1">
+<div class="yellowlead2"><br>
+<p class="lead">Vælg først din kommune og tryk bagefter på kortet nedenfor for at se alle kandidater der deltager i Kommunal- og Regionsrådsvalget i dit område.
+</p>
 
+
+
+</div>
+</div>
+</div>
+</div>
+<br>
+
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1">
+
+
+<ul class="nav navbar-nav">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VÆLG DIN KOMMUNE <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">København</a></li>
+<li><a href="#">Aarhus</a></li>
+<li><a href="#">Aalborg</a></li>
+<li><a href="#">...</a></li>
+</ul>
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+<br>
+
+
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1">
 <div class="reader">
 
 
 
-
-<div class="allQuestions">
-		<div class="overskrift">
-			<h1></h1>
-            <h3>Svar på sp&#248;rgsm&#229;lene og find ud af hvilken kandidat der deler dine holdninger</h3>
-		</div>
-	</div>
-
-	<div class="resultBtn">
-		<button onclick="calculateResult()" type="button" class="btn btn-success btn-lg">Resultat</button>
-	</div>
-
-	<div class="testResults">
-
-	</div>
+<div id="stage">
+<div id="felt">
 
 
+<!--
+<button data-id="UDSKIFT_MIG" type="button" data-toggle="modal"
+data-target="#myModal"></button>
+-->
+
+<div id="card_0"><img onclick="cardClick(0);" src="picture/Card1_SD.png"></div>
+<div id="card_1"><img onclick="cardClick(1);" src="picture/Card2_Venstre.png"></div>
+<div id="card_2"><img onclick="cardClick(2);" src="picture/Card3_Venstre.png"></div>
+<div id="card_3"><img onclick="cardClick(3);" src="picture/Card4_SD.png"></div>
+<div id="card_4"><img onclick="cardClick(4);" src="picture/back.png"></div>
+<div id="card_5"><img onclick="cardClick(5);" src="picture/back.png"></div>
+<div id="card_6"><img onclick="cardClick(6);" src="picture/back.png"></div>
+<div id="card_7"><img onclick="cardClick(7);" src="picture/back.png"></div>
+<div id="card_8"><img onclick="cardClick(8);" src="picture/back.png"></div>
+<div id="card_9"><img onclick="cardClick(9);" src="picture/back.png"></div>
+<div id="card_10"><img onclick="cardClick(10);" src="picture/back.png"></div>
+<div id="card_11"><img onclick="cardClick(11);" src="picture/back.png"></div>
+<div id="card_12"><img onclick="cardClick(12);" src="picture/back.png"></div>
+<div id="card_13"><img onclick="cardClick(13);" src="picture/back.png"></div>
+<div id="card_14"><img onclick="cardClick(14);" src="picture/back.png"></div>
+<div id="card_15"><img onclick="cardClick(15);" src="picture/back.png"></div>
+</div>
+</div>
 
 
-	<template id="question_template">
-		<div class="an">
-			<div class="data_question">
 
-			</div>
-			<div class="btn-group" id="id" data-toggle="buttons">
-				<label class="btn btn-default" id="option1">
-					<input type="radio" class="toggle" value="1">Option1</label>
-				<label class="btn btn-default" id="option2">
-					<input type="radio" class="toggle" value="2">Option2</label>
-				<label class="btn btn-default" id="option3">
-					<input type="radio" class="toggle" value="3">Option3</label>
-				<label class="btn btn-default" id="option4">
-					<input type="radio" class="toggle" value="4">Option4</label>
-				<label class="btn btn-default" id="option5">
-					<input type="radio" class="toggle" value="5">Option5</label>
-			</div>
-		</div>
-	</template>
+
+
+
 
 
 </div>
@@ -310,6 +348,10 @@
 </div>
 </div>
 <br>
+
+
+
+
 
 
 
@@ -321,14 +363,13 @@
 <section class="row">
 
 <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-<div><a href="list.html" class="btn btn-primary btn-success btn-lg">Se kandidatlisten her</a></div>
+<div class="gethashtag"></div>
+<div class="tag"></div>
 </div>
-
-
-
 </section>
 </div>
 
+<br><br><br><br><br>
 
 
 
@@ -336,7 +377,6 @@
 
 
 
-<br><br>
 
 <div class="container-fluid">
 <div class="row">
@@ -379,16 +419,26 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="candidates.js"></script>
-    <script src="answers.json"></script>
-    <script src="questions.json"></script>
-    <script src="cross.js"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="star.js"></script>
+    <script src="cross.js"></script>
+    <script src="cards.js"></script>
 
 
 
