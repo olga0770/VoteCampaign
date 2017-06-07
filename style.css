@@ -425,7 +425,9 @@ background-color: #cedc28;
 padding: 15px;
 }
 
-
+.infographics {
+text-align: center;
+}
 
 .farve6{
 text-align: center;
@@ -663,6 +665,15 @@ animation: movedown 2s ease-in-out 1 alternate forwards;
   -webkit-transition-timing-function: ease-out, ease-out, ease-in-out;
 }
 
+
+
+.info_box {
+text-align: center;
+}
+
+.house{
+margin-top: -2vw;
+}
 
 
 
