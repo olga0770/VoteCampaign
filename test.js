@@ -1,44 +1,37 @@
 
 var valgte;
 var info;
-var aktiv;
 
-        //1. load svg
-
-    $("#icon").load("infografics.svg", svg_loaded);
+//1. load svg
+$("#icon").load("infografics.svg", svg_loaded);
 
 function svg_loaded(){
-    console.log("har loaded svg");
+console.log("har loaded svg");
 
-        //2. load JSON
-
-    $.getJSON("data.json", data_loaded);
+//2. load JSON
+$.getJSON("data.json", data_loaded);
 }
 
-
-        //3. saet tekstvariable og aktiver click
+//3. put tekstvariable og aktivate click
 function data_loaded(data){
     info = data;
     $("#icon svg g").on("click", vis_info);
-
     console.table(data);
 }
 
-        //4. handlinger ved click
+//4. actions with click
 function vis_info(e){
-    aktiv = $(e.currentTarget).children();
-    valgte = $(e.currentTarget).attr("id");
-        //vis tekst fra json
-    info.forEach(vis_tekst);
+valgte = $(e.currentTarget).attr("id");
 
+//5. show tekst from json
+info.forEach(vis_tekst);
 }
 
 function vis_tekst(val){
     if(val.id == valgte){
-        document.querySelector(".data_navn").textContent = val.navn;
-        document.querySelector(".data_text").textContent = val.text;
-
-    };
+document.querySelector(".data_navn").textContent = val.navn;
+document.querySelector(".data_text").textContent = val.text;
+};
 }
 
 
