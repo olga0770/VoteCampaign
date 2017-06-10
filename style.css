@@ -587,38 +587,28 @@ cursor: pointer;
 
 #cross{
 position: relative;
-cursor: pointer;
-}
-
+cursor: pointer;}
 
 .updown{
 animation: moveupdown 4s ease-in-out infinite alternate;
--webkit-animation: moveupdown 4s ease-in-out infinite alternate;
-}
+-webkit-animation: moveupdown 4s ease-in-out infinite alternate;}
 
 @keyframes moveupdown {
-50% {transform: translate(0%, 25%);}
-}
+50% {transform: translate(0%, 25%);}}
 
 @-webkit-keyframes moveupdown {
-50% {transform: translate(0%, 25%);}
-}
-
+50% {transform: translate(0%, 25%);}}
 
 
 .crossdown {
 animation: movedown 2s ease-in-out 1 alternate forwards;
--webkit-animation: movedown 2s ease-in-out 1 alternate forwards;
-}
+-webkit-animation: movedown 2s ease-in-out 1 alternate forwards;}
 
 @keyframes movedown {
-100% {transform: translate(0%, 120%);}
-}
-
+100% {transform: translate(0%, 120%);}}
 
 @-webkit-keyframes movedown {
-100% {transform: translate(0%, 120%);}
-}
+100% {transform: translate(0%, 120%);}}
 
 
 

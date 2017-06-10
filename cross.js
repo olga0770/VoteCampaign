@@ -1,18 +1,14 @@
 $(window).on("load", sidenVises);
 var isChoiceMade = false;
 
-
 function sidenVises() {
     console.log("siden vises");
-
-
 
 
 $("#cross").addClass("updown");
 $("#cross").on("animationend", updownmovement);
 $("#cross").on("click", crossclick);
 }
-
 
 function updownmovement() {
 console.log("up and down movement");
@@ -23,9 +19,6 @@ $("#cross").off("animationend", crossclick);
 }
 
 
-
-
-
 function crossclick() {
     console.log("cross click");
 
@@ -33,7 +26,6 @@ $("#cross").off("click", crossclick);
 
 setTimeout(crossfall, 10);
 }
-
 
 function crossfall() {
      console.log("cross falls");

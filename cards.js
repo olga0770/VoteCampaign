@@ -9,11 +9,9 @@ var card_top = [];
 
 for(var i=0; i < 16; i++) {
   card_left[i] = 70 + 100 * (i%4);
-  card_top[i] = 15 + 120 * Math.floor(i/4);
-}
+  card_top[i] = 15 + 120 * Math.floor(i/4);}
 
- var started = false;
-
+var started = false;
 
 function moveToPlace(id)
 {
@@ -24,10 +22,7 @@ console.log('moveToPlace');
   el.style["left"] = card_left[id] + "px";
   el.style["top"] = card_top[id] + "px";
   el.style["WebkitTransform"] = "rotate(180deg)";
-  el.style["zIndex"] = 0;
-}
-
-
+  el.style["zIndex"] = 0;}
 
 // flip over card and check for match
 function showCard(id)
@@ -44,24 +39,16 @@ function showCard(id)
   el.style["WebkitTransform"] = "scale(1.2) rotate(185deg)";
   el.style["MozTransform"] = "scale(1.2)";
   el.style["OTransform"] = "scale(1.2)";
-  el.style["msTransform"] = "scale(1.2)";
+  el.style["msTransform"] = "scale(1.2)";}
 
-}
-
-
-function cardClick(id)
-{
+function cardClick(id){
     //console.log('cardClick was called...');
-
-  if(started) {
+if(started) {
     showCard(id);
   } else {
     // shuffle and deal cards
-
     //card_value.sort(function() { return Math.round(Math.random()) - 0.5; });
     for(i=0; i < 16; i++) setTimeout("moveToPlace(" + i + ")", i * 100);
-    started = true;
-
-  }
+    started = true;}
 }
 

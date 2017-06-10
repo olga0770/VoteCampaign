@@ -1,17 +1,11 @@
 
-
 var valgte;
-
 var info;
-
 var aktiv;
 
-
-        //1. load svg fil
+        //1. load svg
 
     $("#icon").load("infografics.svg", svg_loaded);
-
-
 
 function svg_loaded(){
     console.log("har loaded svg");
@@ -22,7 +16,7 @@ function svg_loaded(){
 }
 
 
-        //3. sÃ¦t tekstvariable og aktiver click
+        //3. saet tekstvariable og aktiver click
 function data_loaded(data){
     info = data;
     $("#icon svg g").on("click", vis_info);
